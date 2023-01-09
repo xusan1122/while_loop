@@ -6,4 +6,14 @@
   
   
 */
-void main() {}
+int func(int a) {
+  int a;
+  if (a % a == 1 && a % 2 == 1 && a % 3 == 1) {
+    return a;
+  }
+  return a;
+}
+
+void main() {
+  print(func(10));
+}

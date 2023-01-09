@@ -6,14 +6,14 @@
 */
 String func(int a) {
   int i = 0;
-  String A = "";
+  String b = "";
   while (i <= a) {
     if (i % 2 == 1) {
-      A +="${i}";
+      b +="${i}";
     }
     i += 1;
   }
-  return A;
+  return b;
 }
 
 void main() {

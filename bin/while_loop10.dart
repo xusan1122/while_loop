@@ -6,14 +6,16 @@
   
   
 */
-int func(int a) {
-  int a;
-  if (a % a == 1 && a % 2 == 1 && a % 3 == 1) {
-    return a;
+String func(int a) {
+  int i=0;
+  // int a;
+  while(i*i<=a)
+  if (i>0) {
+    return "tub son emas";
   }
-  return a;
+  return "tub son";
 }
 
 void main() {
-  print(func(10));
+  print(func(7));
 }

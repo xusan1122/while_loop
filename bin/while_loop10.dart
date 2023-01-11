@@ -10,10 +10,11 @@ String func(int a) {
   int i=0;
   // int a;
   while(i*i<=a)
-  if (i>0) {
-    return "tub son emas";
+  if (a>0) {
+
+    return "tub son";
   }
-  return "tub son";
+  return "tub son emas";
 }
 
 void main() {

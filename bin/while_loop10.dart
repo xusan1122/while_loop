@@ -10,7 +10,7 @@ String func(int a) {
   int i = 0;
   while (i * i <= a);
   if (a > 0) {
-    return "tub son";
+    return "tub son ";
   }
   return "tub son emas";
 }

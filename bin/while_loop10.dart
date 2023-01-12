@@ -15,6 +15,6 @@ String func(int a) {
   return "tub son emas";
 }
 
-void main() {
+void main(){
   print(func(7));
 }
